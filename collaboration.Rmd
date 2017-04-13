@@ -1,0 +1,7 @@
+# Collaborate
+
+**Objectives:**
+* Read Chapters 16 – 24 in [Jenny Bryans Book](http://happygitwithr.com/new-github-first.html) to get a project going to Git HUB or work on someone elses.
+### Collaboration with GitHUB
+### Access to data used for analyses for Hakai Analysts
+### Access to data for collaborators outside of Hakai

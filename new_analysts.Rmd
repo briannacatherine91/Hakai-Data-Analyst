@@ -1,0 +1,73 @@
+# Reference Guide for the New R Analyst
+
+## Set-up GitHUB
+
+There is a reason this document you are reading is hosted on github.com. We will be working with GitHUB throughout this guide and you'll want to use Git while you're working on analyses in the future. If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move onto learning R.
+
+First, you're going to want to [sign up for a GitHUB account](https://github.com)
+
+Now that you have a GitHUB account, you should fork this Repository (Repo) so that you can access this document from your GitHUB profile, edit it, a make a 'pull request' to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved by your contribution; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the future. 
+
+To successfully fork this repo and suggest edits read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
+
+You'll notice that this file is a '.md' file which stands for Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
+
+## Install and Set up R and R Studio
+
+R is the statistical programming language that R Studio understands. I think of R Studio being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.
+
+1) Watch my [Youtube Video](https://youtu.be/G3kaguwW8yc) on how to install R and R Studio
+2) Go to https://cran.r-project.org/ and follow the link to the download for your operating system.
+3) Go to https://www.rstudio.com/products/rstudio/download/ to download R studio
+
+## Install and set-up Git
+Next you're going to install Git. Similar to the relationship between R and R-Studio, Git is the *local* version control system running in the back ground on your computer while GitHUB is the *remote* user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server. 
+
+Installing Git locally and getting Git to communicate to your remote GitHUB website account, and then getting them to talk with RStudio takes a number of steps to complete...This next part can be painful to work through, but it is 100 % neccesary and well worth it in the long-run.
+
+1) Install Git and GitHUB and get them talking to R-Studio using [Jenny Bryan's Guide](http://happygitwithr.com/install-git.html), start at chapter 7 and work to the end of chapter 13.
+2) If you're successful: Thank god that's over. Otherwise continue on to Chapter 14 and 15 if you're having problems.
+
+Congratulations you now have setup the three main tools in the R Analyst toolbox: R, R Studio and GitHUB.
+
+## Familiarize yourself with R and R-Studio
+Now that you have the tools you need, lets get familiar with R-Studio and the R programming language.
+
+Lets install you're first package in R-Studio. You can think of packages as extensions to R. Because R is open-source, people often write packages to make different functions, features, or analyses possible. 
+
+Your first package will be swirl(). swirl() is a package for learning (and teaching) statistics and R simultaneously and interactively.
+
+Watch [this youtube video](https://youtu.be/0eiOi5i34rs) to install your first package and start learning R with the swirl() package. 
+
+## Learning Objectives:
+There are a plethora of resources to help you learn R. After a year and a half of sifting through this material and learning R myself I've found these resources to be the best, and I present them to you in an order I wish I had learned them in. Together these objectives direct you through an efficient way to learn R, and combined with a graduate level understanding of statistics you should gain an intermediate skill level in R using a very high-level, and modern approach.
+
+* Complete chapter 1 in swirl()
+
+* Next, watch [this R-Studio Tutorial](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/). Skip over the sections related to the Server Pro version of R-Studio.
+
+* Complete chapters 2 – 7 in swirl() inside of RStudio.
+
+* Watch R-Studio tutorial: [Projects and R Studio](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-change-part-1/)
+
+* Commplete the remaining chapters in the swirl() R Programming course, and try some of the other swirl courses that interest you.
+
+* Read [Chapter 7 of Jenny Bryans Book](http://happygitwithr.com/new-github-first.html) to get your own project set up on GitHUB first and then in R-Studio so you can start experimenting with your own data set and your own analysis. 
+
+* Read from front to back Hadley Wickam and Garrett Grolemund's Book: [R For Data Science](http://r4ds.had.co.nz/) to master the 'tidyverse'; a deadly combination of packages and a well thought out and systematic approach to "import, tidy, transform, visualize, and model data." Using the tidyverse as a foundation for your coding replaces the 'million and 1 ways' of doing things in R into a concise, grammar of data analysis programming.
+
+All these learning objectives will take some time to complete, and you will be very frustrated at points but know that we all have suffered through this initial learning curve and eventually it gets easier.
+
+## The Process of Data Analysis
+Roger Peng puts it simplest:
+* Define the question
+* Define the ideal data set
+* Determine what data you can access
+* Obtain the data
+* Clean the data
+* Exploratory data analysis
+* Statistical prediction/modeling
+* Interpret results
+* Challenge results
+* Synthesize/write up results
+* Create reproducible code

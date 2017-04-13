@@ -2,3 +2,6 @@ book_filename: "bookdown-demo"
 language:
   ui:
     chapter_name: "Chapter "
+
+    rmd_files: ["intro.Rmd", "new_analysts.Rmd",
+    "guidelines_for_hakai_analysts.Rmd","collaboration.Rmd", "Resources.Rmd"]

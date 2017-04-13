@@ -1,0 +1,5 @@
+# Additional References and Resources
+
+[Journal of Biostatistics Guide for Reproducible Research](https://academic.oup.com/biostatistics/article/10/3/405/293660/Reproducible-research-and-Biostatistics)
+
+[Compiled Ideas on Managing a Statistical Analysis Project](https://www.r-statistics.com/2010/09/managing-a-statistical-analysis-project-guidelines-and-best-practices/)
