@@ -1,3 +1,3 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
+# Hakai Data Analyst Guide
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/
+This is the living version of a guide for Hakai Data Analysis. There are seperate chapters for each topic indicated by the numeric prefixes of the .Rmd files above... ie. '01-intro.Rmd'. Please open up these chapters and have a read. If you'd like to suggest some edits, click on the pencil icon OR fork this repo and make a pull request to send your edits back to me.
