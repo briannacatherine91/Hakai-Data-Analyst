@@ -16,4 +16,4 @@ description: "This is a minimal example of using the bookdown package to write a
 The Hakai Institute is a research organization based on the coast of
 British Columbia, Canada.
 
-See the [Hakai Institute Website](http://www.hakai.org) for more information
+See the [Hakai Institute Website](http://www.hakai.org) for more information.
