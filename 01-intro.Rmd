@@ -11,14 +11,13 @@ link-citations: yes
 github-repo: br-johnson/Hakai-Data-Analyst
 description: "A guideline for R analysts; getting started, best practices, and collaboration"
 ---
-
 # Introduction
 ```{r, include=FALSE}
-
+# Type the command below into the update the viewer auto
 #bookdown::serve_book(dir = ".", output_dir = "_book", preview = TRUE, in_session = TRUE)
 ```
 
-The objective of this guide is to serve as:
+The objective of this guide is to serve as a bomb ass bomb:
 1) a reference guide for the new R Analyst; 
 2) best-practice guidelines for Hakai staff to make reproducible analyses, and use literate programming methods in R-Studio; and 
 3) a guide to enhance collaborative capacities for ecological analyses within and between Hakai research programs and generally the science community using Git and GitHub. 
