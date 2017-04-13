@@ -2,26 +2,30 @@
 
 ## Set-up GitHUB
 
-There is a reason this document you are reading is hosted on github.com. We will be working with GitHUB throughout this guide and you'll want to use Git while you're working on analyses in the future. If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move onto learning R.
+The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses.  If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move onto learning R.
 
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
-Now that you have a GitHUB account, you should fork this Repository (Repo) so that you can access this document from your GitHUB profile, edit it, a make a 'pull request' to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved by your contribution; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the future. 
+Now that you have a GitHUB account, you should fork this repository (repo) so that you can access this document from your GitHUB profile, edit it, and make a 'pull request' to suggest edits to me. 
 
-To successfully fork this repo and suggest edits read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
+This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
 
-You'll notice that this file is a '.md' file which stands for Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
+To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me for my review.
+
+If you  aren' successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
+
+You'll notice that this file is a '.Rmd' file which stands for R  Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files for your analyses and for story on gitHUB is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
 
 ## Install and Set up R and R Studio
 
-R is the statistical programming language that R Studio understands. I think of R Studio being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.
+R is the statistical programming language that R Studio understands. I think of R Studio as being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.
 
 1) Watch my [Youtube Video](https://youtu.be/G3kaguwW8yc) on how to install R and R Studio
 2) Go to https://cran.r-project.org/ and follow the link to the download for your operating system.
 3) Go to https://www.rstudio.com/products/rstudio/download/ to download R studio
 
 ## Install and set-up Git
-Next you're going to install Git. Similar to the relationship between R and R-Studio, Git is the *local* version control system running in the back ground on your computer while GitHUB is the *remote* user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server. 
+Next you're going to install Git. Git tracks the changes you make in R-Studio locally and upon your request, pushes changes to your remote repository at GitHUB. Similar to the relationship between R and R-Studio, Git is the *local* version control system running in the back ground on your computer while GitHUB is the *remote* user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server. 
 
 Installing Git locally and getting Git to communicate to your remote GitHUB website account, and then getting them to talk with RStudio takes a number of steps to complete...This next part can be painful to work through, but it is 100 % neccesary and well worth it in the long-run.
 

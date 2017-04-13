@@ -25,7 +25,7 @@
 <meta name="author" content="Brett Johnson">
 
 
-<meta name="date" content="2017-04-12">
+<meta name="date" content="2017-04-13">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -67,9 +67,7 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
-<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
-<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#acknowledgements"><i class="fa fa-check"></i><b>1.1</b> Acknowledgements</a></li>
-</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html"><i class="fa fa-check"></i><b>2</b> Reference Guide for the New R Analyst</a><ul>
 <li class="chapter" data-level="2.1" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#set-up-github"><i class="fa fa-check"></i><b>2.1</b> Set-up GitHUB</a></li>
 <li class="chapter" data-level="2.2" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#install-and-set-up-r-and-r-studio"><i class="fa fa-check"></i><b>2.2</b> Install and Set up R and R Studio</a></li>
@@ -78,12 +76,7 @@
 <li class="chapter" data-level="2.5" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#learning-objectives"><i class="fa fa-check"></i><b>2.5</b> Learning Objectives:</a></li>
 <li class="chapter" data-level="2.6" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#the-process-of-data-analysis"><i class="fa fa-check"></i><b>2.6</b> The Process of Data Analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html"><i class="fa fa-check"></i><b>3</b> Guidelines for Hakai Data Analysts</a><ul>
-<li class="chapter" data-level="3.1" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#programming-style-guide"><i class="fa fa-check"></i><b>3.1</b> Programming Style Guide</a></li>
-<li class="chapter" data-level="3.2" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#organization-of-a-data-analysis-workflow"><i class="fa fa-check"></i><b>3.2</b> Organization of a Data Analysis Workflow</a></li>
-<li class="chapter" data-level="3.3" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#reproducible-research-literate-programming-and-the-open-notebook"><i class="fa fa-check"></i><b>3.3</b> Reproducible Research, Literate Programming, and the Open Notebook</a></li>
-<li class="chapter" data-level="3.4" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#reproducible-research-using-markdown-notebooks-or-other-need-significant-additions-editing-and-contributions-beyond-here"><i class="fa fa-check"></i><b>3.4</b> Reproducible research using markdown, notebooks, or other (Need significant additions, editing, and contributions beyond here)</a></li>
-</ul></li>
+<li class="chapter" data-level="3" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html"><i class="fa fa-check"></i><b>3</b> Guidelines for Hakai Data Analysts</a></li>
 <li class="chapter" data-level="4" data-path="collaborate.html"><a href="collaborate.html"><i class="fa fa-check"></i><b>4</b> Collaborate</a></li>
 <li class="chapter" data-level="5" data-path="additional-references-and-resources.html"><a href="additional-references-and-resources.html"><i class="fa fa-check"></i><b>5</b> Additional References and Resources</a></li>
 <li class="divider"></li>
@@ -107,18 +100,20 @@
 
             <section class="normal" id="section-">
 <div id="reference-guide-for-the-new-r-analyst" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Reference Guide for the New R Analyst</h1>
+<h1><span class="header-section-number">2</span> Reference Guide for the New R Analyst</h1>
 <div id="set-up-github" class="section level2">
 <h2><span class="header-section-number">2.1</span> Set-up GitHUB</h2>
-<p>There is a reason this document you are reading is hosted on github.com. We will be working with GitHUB throughout this guide and you’ll want to use Git while you’re working on analyses in the future. If you’re interested in learning why you should use git, read <a href="http://happygitwithr.com/big-picture.html#why-git">Chapter 1; ‘Why Git? Why GitHUB’ from Jenny Bryans Book</a>. Otherwise take my word for it and we can get this part out of the way before we move onto learning R.</p>
+<p>The reason this document is hosted on GitHUB is that we’ll be working with GitHUB throughout this guide and throughout your own analyses. If you’re interested in learning why you should use git, read <a href="http://happygitwithr.com/big-picture.html#why-git">Chapter 1; ‘Why Git? Why GitHUB’ from Jenny Bryans Book</a>. Otherwise take my word for it and we can get this part out of the way before we move onto learning R.</p>
 <p>First, you’re going to want to <a href="https://github.com">sign up for a GitHUB account</a></p>
-<p>Now that you have a GitHUB account, you should fork this Repository (Repo) so that you can access this document from your GitHUB profile, edit it, a make a ‘pull request’ to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved by your contribution; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues’ analyses in the future.</p>
-<p>To successfully fork this repo and suggest edits read <a href="http://happygitwithr.com/fork.html">Chapter 24 of Jenny Brians Book; ‘Fork a Repo’</a>.</p>
-<p>You’ll notice that this file is a ‘.md’ file which stands for Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. <a href="https://guides.github.com/features/mastering-markdown/">Read this</a> if you’re interested in markdown syntax, otherwise come back to it later.</p>
+<p>Now that you have a GitHUB account, you should fork this repository (repo) so that you can access this document from your GitHUB profile, edit it, and make a ‘pull request’ to suggest edits to me.</p>
+<p>This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn’t work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues’ analyses in the very near future.</p>
+<p>To successfully fork this repo and suggest edits simply go to <a href="https://github.com/Br-Johnson/Hakai-Data-Analyst">my repo here</a> and click on the name of this chapter: ‘new_analysts.Rmd’, once it’s open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you’d like and when your happy you can click on ‘pull request’ to send the updates back to me for my review.</p>
+<p>If you aren’ successfull forking my repo, read <a href="http://happygitwithr.com/fork.html">Chapter 24 of Jenny Brians Book; ‘Fork a Repo’</a>.</p>
+<p>You’ll notice that this file is a ‘.Rmd’ file which stands for R Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files for your analyses and for story on gitHUB is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. <a href="https://guides.github.com/features/mastering-markdown/">Read this</a> if you’re interested in markdown syntax, otherwise come back to it later.</p>
 </div>
 <div id="install-and-set-up-r-and-r-studio" class="section level2">
 <h2><span class="header-section-number">2.2</span> Install and Set up R and R Studio</h2>
-<p>R is the statistical programming language that R Studio understands. I think of R Studio being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.</p>
+<p>R is the statistical programming language that R Studio understands. I think of R Studio as being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.</p>
 <ol style="list-style-type: decimal">
 <li>Watch my <a href="https://youtu.be/G3kaguwW8yc">Youtube Video</a> on how to install R and R Studio</li>
 <li>Go to <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a> and follow the link to the download for your operating system.</li>
@@ -127,7 +122,7 @@
 </div>
 <div id="install-and-set-up-git" class="section level2">
 <h2><span class="header-section-number">2.3</span> Install and set-up Git</h2>
-<p>Next you’re going to install Git. Similar to the relationship between R and R-Studio, Git is the <em>local</em> version control system running in the back ground on your computer while GitHUB is the <em>remote</em> user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server.</p>
+<p>Next you’re going to install Git. Git tracks the changes you make in R-Studio locally and upon your request, pushes changes to your remote repository at GitHUB. Similar to the relationship between R and R-Studio, Git is the <em>local</em> version control system running in the back ground on your computer while GitHUB is the <em>remote</em> user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server.</p>
 <p>Installing Git locally and getting Git to communicate to your remote GitHUB website account, and then getting them to talk with RStudio takes a number of steps to complete…This next part can be painful to work through, but it is 100 % neccesary and well worth it in the long-run.</p>
 <ol style="list-style-type: decimal">
 <li>Install Git and GitHUB and get them talking to R-Studio using <a href="http://happygitwithr.com/install-git.html">Jenny Bryan’s Guide</a>, start at chapter 7 and work to the end of chapter 13.</li>

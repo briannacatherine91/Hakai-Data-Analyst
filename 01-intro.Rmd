@@ -19,11 +19,11 @@ description: "A guideline for R analysts; getting started, best practices, and c
 
 The objective of this guide is to serve as a:
 
-1) A reference guide for the new R Analyst; 
+1) Reference guide for the new R Analyst; 
 2) best-practice guidelines for Hakai staff to make reproducible analyses, and use literate programming methods in R-Studio; and 
 3) a guide to enhance collaborative capacities for ecological analyses within and between Hakai research programs and generally the science community using Git and GitHub. 
 
-My hope is this guide will teach you a prescribed methodology that results in; high analytical quality, reproducible research methods, understanding the benefits of open science practices, and opens the world of collaboration for anlaysts to contribute to each others projects. The beginning of this guide may seem difficult, but in making this guide I've kept long-term goals in mind and in a sense I have front-loaded the R learning experience with important concepts that will serve you in the near future and in the long-run.
+My hope is this guide will teach you a logical methodology that results in; high analytical quality, reproducible research methods, open science practices, and facilitates collaboration. The beginning of this guide may seem difficult, but in making this guide I've kept long-term goals in mind and in a sense I have front-loaded the R learning experience with important concepts that will serve you in the near future and in the long-run.
 
 ## Acknowledgements
 Much of this document simply refers you to material that others have worked very hard to make simple. I simply point to these resources in an order that makes sense to me and forms a systematic approach. Many thanks to the following people for making this possible:
