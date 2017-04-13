@@ -17,8 +17,9 @@ description: "A guideline for R analysts; getting started, best practices, and c
 #bookdown::serve_book(dir = ".", output_dir = "_book", preview = TRUE, in_session = TRUE)
 ```
 
-The objective of this guide is to serve as a bomb ass bomb:
-1) a reference guide for the new R Analyst; 
+The objective of this guide is to serve as a:
+
+1) A reference guide for the new R Analyst; 
 2) best-practice guidelines for Hakai staff to make reproducible analyses, and use literate programming methods in R-Studio; and 
 3) a guide to enhance collaborative capacities for ecological analyses within and between Hakai research programs and generally the science community using Git and GitHub. 
 
@@ -26,6 +27,7 @@ My hope is this guide will teach you a prescribed methodology that results in; h
 
 ## Acknowledgements
 Much of this document simply refers you to material that others have worked very hard to make simple. I simply point to these resources in an order that makes sense to me and forms a systematic approach. Many thanks to the following people for making this possible:
+
 * Dr. Jenny Bryan, UBC Professor in the Masters of Data Science Program. [Twitter](https://twitter.com/JennyBryan), [GitHUB](https://github.com/jennybc).
 * Dr. Roger Peng, Professor of Biostatistics at Johns Hopkins University. [Website](http://www.biostat.jhsph.edu/~rpeng/), [GitHUB](https://github.com/rdpeng).
 * Dr. Hadley Wickham, Chief Scientists at R-Studio. [Website](http://hadley.nz/), [Twitter](https://twitter.com/hadleywickham), [GitHUB](https://github.com/hadley).
