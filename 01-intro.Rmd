@@ -3,16 +3,17 @@ title: "Hakai Institute R Data-Analyst Guide"
 author: "Brett Johnson"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
-github-repo: rstudio/bookdown-demo
+output:
+  bookdown::gitbook: default
+github-repo: br-johnson/Hakai-Data-Analyst
 description: "A guideline for R analysts; getting started, best practices, and collaboration"
 ---
 
 # Introduction
+```{r}
+
+```
 
 The objective of this guide is to serve as:
 1) a reference guide for the new R Analyst; 
@@ -26,4 +27,4 @@ Much of this document simply refers you to material that others have worked very
 * Dr. Jenny Bryan, UBC Professor in the Masters of Data Science Program. [Twitter](https://twitter.com/JennyBryan), [GitHUB](https://github.com/jennybc).
 * Dr. Roger Peng, Professor of Biostatistics at Johns Hopkins University. [Website](http://www.biostat.jhsph.edu/~rpeng/), [GitHUB](https://github.com/rdpeng).
 * Dr. Hadley Wickham, Chief Scientists at R-Studio. [Website](http://hadley.nz/), [Twitter](https://twitter.com/hadleywickham), [GitHUB](https://github.com/hadley).
-_____
+
