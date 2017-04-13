@@ -12,10 +12,6 @@ github-repo: br-johnson/Hakai-Data-Analyst
 description: "A guideline for R analysts; getting started, best practices, and collaboration"
 ---
 # Introduction
-```{r, include=FALSE}
-# Type the command below into the update the viewer auto
-#bookdown::serve_book(dir = ".", output_dir = "_book", preview = TRUE, in_session = TRUE)
-```
 
 The objective of this guide is to serve as a:
 
