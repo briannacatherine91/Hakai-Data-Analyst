@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hakai Institute R Data-Analyst Guide</title>
+  <meta name="description" content="A guideline for R analysts; getting started, best practices, and collaboration">
+  <meta name="generator" content="bookdown 0.3.18 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Hakai Institute R Data-Analyst Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A guideline for R analysts; getting started, best practices, and collaboration" />
+  <meta name="github-repo" content="br-johnson/Hakai-Data-Analyst" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Hakai Institute R Data-Analyst Guide" />
+  
+  <meta name="twitter:description" content="A guideline for R analysts; getting started, best practices, and collaboration" />
+  
+
+<meta name="author" content="Brett Johnson">
+
+
+<meta name="date" content="2017-04-12">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="reference-guide-for-the-new-r-analyst.html">
+<link rel="next" href="collaborate.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#acknowledgements"><i class="fa fa-check"></i><b>1.1</b> Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html"><i class="fa fa-check"></i><b>2</b> Reference Guide for the New R Analyst</a><ul>
+<li class="chapter" data-level="2.1" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#set-up-github"><i class="fa fa-check"></i><b>2.1</b> Set-up GitHUB</a></li>
+<li class="chapter" data-level="2.2" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#install-and-set-up-r-and-r-studio"><i class="fa fa-check"></i><b>2.2</b> Install and Set up R and R Studio</a></li>
+<li class="chapter" data-level="2.3" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#install-and-set-up-git"><i class="fa fa-check"></i><b>2.3</b> Install and set-up Git</a></li>
+<li class="chapter" data-level="2.4" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#familiarize-yourself-with-r-and-r-studio"><i class="fa fa-check"></i><b>2.4</b> Familiarize yourself with R and R-Studio</a></li>
+<li class="chapter" data-level="2.5" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#learning-objectives"><i class="fa fa-check"></i><b>2.5</b> Learning Objectives:</a></li>
+<li class="chapter" data-level="2.6" data-path="reference-guide-for-the-new-r-analyst.html"><a href="reference-guide-for-the-new-r-analyst.html#the-process-of-data-analysis"><i class="fa fa-check"></i><b>2.6</b> The Process of Data Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html"><i class="fa fa-check"></i><b>3</b> Guidelines for Hakai Data Analysts</a><ul>
+<li class="chapter" data-level="3.1" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#programming-style-guide"><i class="fa fa-check"></i><b>3.1</b> Programming Style Guide</a></li>
+<li class="chapter" data-level="3.2" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#organization-of-a-data-analysis-workflow"><i class="fa fa-check"></i><b>3.2</b> Organization of a Data Analysis Workflow</a></li>
+<li class="chapter" data-level="3.3" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#reproducible-research-literate-programming-and-the-open-notebook"><i class="fa fa-check"></i><b>3.3</b> Reproducible Research, Literate Programming, and the Open Notebook</a></li>
+<li class="chapter" data-level="3.4" data-path="guidelines-for-hakai-data-analysts.html"><a href="guidelines-for-hakai-data-analysts.html#reproducible-research-using-markdown-notebooks-or-other-need-significant-additions-editing-and-contributions-beyond-here"><i class="fa fa-check"></i><b>3.4</b> Reproducible research using markdown, notebooks, or other (Need significant additions, editing, and contributions beyond here)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="collaborate.html"><a href="collaborate.html"><i class="fa fa-check"></i><b>4</b> Collaborate</a></li>
+<li class="chapter" data-level="5" data-path="additional-references-and-resources.html"><a href="additional-references-and-resources.html"><i class="fa fa-check"></i><b>5</b> Additional References and Resources</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Hakai Institute R Data-Analyst Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="guidelines-for-hakai-data-analysts" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Guidelines for Hakai Data Analysts</h1>
+<div id="programming-style-guide" class="section level2">
+<h2><span class="header-section-number">3.1</span> Programming Style Guide</h2>
+<p><a href="https://google.github.io/styleguide/Rguide.xml">Google’s R Style Guide</a> is an excellent place to start. Googles guide recommendeds two space indents for new lines of code within the same function, but I prefer 8. See <a href="https://www.youtube.com/watch?v=MSPKE1y3cyQ">Roger Pengs Coding Standards Video</a> for some excellent suggestions that I mostly adhere to.</p>
+</div>
+<div id="organization-of-a-data-analysis-workflow" class="section level2">
+<h2><span class="header-section-number">3.2</span> Organization of a Data Analysis Workflow</h2>
+<p>I keep all files associated with an analysis in a google drive folder, so that I can give collaborators access to RAW data so they can work with it directly.</p>
+<p>I use a default folder structure for every analysis based on the files that are typically produced from every analysis. First I create a folder for the name of the project and create these sub-folders within the project folder.</p>
+<p>The sub folders I use are: * raw data * processed data * raw scripts * final scripts * exploratory figures * final figures * notebook</p>
+<p>I typically have my notebook folder set as my working directory and navigate from there to save figures, processed data etc. using the “../processed data/yourfilename.csv”. The .. before the forward slash tells R to navigate up one level from your working directory, and then down one level into, in this case, your processed data folder.</p>
+</div>
+<div id="reproducible-research-literate-programming-and-the-open-notebook" class="section level2">
+<h2><span class="header-section-number">3.3</span> Reproducible Research, Literate Programming, and the Open Notebook</h2>
+<p>These three concepts bring together a very modern way of conducting science. These are the benefits of using these methods:</p>
+<ul>
+<li>They save you work in the long run by being able to reproduce your own analyses after you’ve long forgotten the details of how they were conducted</li>
+<li>If you weave a narrative text into your computer code you’ll be able to understand what you were thinking at a later time when you revisit it.</li>
+<li>You can easily collaborate</li>
+<li>show your peers that you have nothing to hide in your analytical methods</li>
+<li>that you are willing to share your analyses in hopes that others will improve the quality of your analysis by offering their insight.</li>
+</ul>
+<p>Watch: * <a href="https://www.youtube.com/watch?v=DfBSiOupI1I">Dr. RD Peng’s youtube video</a> on reproducible research. * As well as his video on <a href="https://www.youtube.com/watch?v=YcJb1HBc-1Q">Literate Programming</a> * <a href="https://en.wikipedia.org/wiki/Open_notebook_science">Open notebook science</a> involves providing all of your research thoughts and ideas from within your notebook for maximum transparacey.</p>
+</div>
+<div id="reproducible-research-using-markdown-notebooks-or-other-need-significant-additions-editing-and-contributions-beyond-here" class="section level2">
+<h2><span class="header-section-number">3.4</span> Reproducible research using markdown, notebooks, or other (Need significant additions, editing, and contributions beyond here)</h2>
+<p>R Notebooks is a good way to collaborate with other analysts. When using R Notebooks it’s best to set defualts to: You want your YAML header to look something like this: <code>output:   html_notebook: default,    keep_md: TRUE   github_document: default</code> #</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="reference-guide-for-the-new-r-analyst.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="collaborate.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

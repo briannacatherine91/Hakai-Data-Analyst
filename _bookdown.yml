@@ -3,5 +3,5 @@ language:
   ui:
     chapter_name: "Chapter "
 
-rmd_files: ["intro.Rmd", "new_analysts.Rmd",
-    "guidelines_for_hakai_analysts.Rmd","collaboration.Rmd", "Resources.Rmd"]
+rmd_files: ["01-intro.Rmd", "02-new_analysts.Rmd",
+    "03-guidelines_for_hakai_analysts.Rmd","04-collaboration.Rmd", "05-Resources.Rmd"]
