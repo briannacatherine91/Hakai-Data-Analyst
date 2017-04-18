@@ -2,7 +2,7 @@
 
 ## Set-up GitHUB
 
-The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses.  If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move onto learning R.
+The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses.  If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move on to learning R.
 
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
@@ -10,11 +10,16 @@ Now that you have a GitHUB account, you should fork this repository (repo) so th
 
 This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
 
-To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me for my review.
+To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me so I can review them and decide if I should accept your edits and merge them.
 
-If you  aren' successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
+If you  aren't successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
 
-You'll notice that this file is a '.Rmd' file which stands for R  Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files for your analyses and for story on gitHUB is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
+You'll notice that this file is a '.Rmd' file which stands for R  Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files for your analyses and for storing on gitHUB is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
+
+### GitHUB Checklist
+
+* Create a GitHUB account
+* Fork this repository
 
 ## Install and Set up R and R Studio
 
@@ -49,6 +54,8 @@ There are a plethora of resources to help you learn R. After a year and a half o
 * Complete chapter 1 in swirl()
 
 * Next, watch [this R-Studio Tutorial](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/). Skip over the sections related to the Server Pro version of R-Studio.
+
+* Start making some awesome graphs by working through [section 3.1 to 3.5 in Hadley Wickham's R for Data Science Book](http://r4ds.had.co.nz/data-visualisation.html)
 
 * Complete chapters 2 – 7 in swirl() inside of RStudio.
 
