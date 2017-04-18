@@ -7,7 +7,7 @@ The reason this document is hosted on GitHUB is that we'll be working with GitHU
 #### Setup a GitHUB account
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
-#### Introdce yourself or ask questions with 'Issues'
+#### 'Issues'
 Now that you have a GitHUB account, you should introduce yourself and let me know you're going to work through this material. To do that go to the issues tab in this repository (repo) and 'create a new issue' and type a message to introduce yourself. Using issues is also a great way to ask questions about course material.
 
 #### Fork this repo
