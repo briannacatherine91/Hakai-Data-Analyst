@@ -41,4 +41,6 @@ You want your YAML header to look something like this:
   html_notebook: default, 
   keep_md: TRUE
   github_document: default`
-# 
+
+## Collaboration with Phyton users
+The data analysis files you commit to your repo should include a 'feather' table. [Feather](https://blog.rstudio.org/2016/03/29/feather/) is data frame format that is readable by both Python and R, and therefore every analysis should produce this type of dataframe to ensure reproducibility for Python users
