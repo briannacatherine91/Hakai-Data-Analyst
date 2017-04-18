@@ -4,16 +4,20 @@
 
 The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses. GitHUB is integral for tracking the evolution of a set of files. Basically GitHUB and R is analagous to 'track changes' and Microsoft Word. If you're interested in learning more, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move on to learning R.
 
+#### Setup a GitHUB account
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
+#### Introdce yourself or ask questions with 'Issues'
 Now that you have a GitHUB account, you should introduce yourself and let me know you're going to work through this material. To do that go to the issues tab in this repository (repo) and 'create a new issue' and type a message to introduce yourself. Using issues is also a great way to ask questions about course material.
 
+#### Fork this repo
 Next, you should fork this repo so that you can access this document from your GitHUB profile, edit it, and make a 'pull request' to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
 
 To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me so I can review them and decide if I should accept your edits and merge them.
 
 If you  aren't successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
 
+#### Markdown Syntax
 You'll notice that this file is a '.Rmd' file which stands for R  Markdown. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
 
 #### GitHUB Checklist
