@@ -6,21 +6,23 @@ The reason this document is hosted on GitHUB is that we'll be working with GitHU
 
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
-Now that you have a GitHUB account, you should fork this repository (repo) so that you can access this document from your GitHUB profile, edit it, and make a 'pull request' to suggest edits to me. 
+Now that you have a GitHUB account, you should introduce yourself and let me know you're going to work through this material. To do that go to the issues tab in this repository (repo) and 'create a new issue' and type a message to introduce yourself. Using issues is also a great way to ask questions about course material.
 
-This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
+Next, you should fork this repo so that you can access this document from your GitHUB profile, edit it, and make a 'pull request' to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
 
 To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me so I can review them and decide if I should accept your edits and merge them.
 
 If you  aren't successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
 
-You'll notice that this file is a '.Rmd' file which stands for R  Markdown. This is a plain text file that uses a minimal number of symbols to render the output text into something elegant and simple. Using plain text files for your analyses and for storing on gitHUB is recommended because almost any operating system can read them and they are most likely to be readable in the distant future, rather than using a proprietary file formats like word. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
+You'll notice that this file is a '.Rmd' file which stands for R  Markdown. [Read this](https://guides.github.com/features/mastering-markdown/) if you're interested in markdown syntax, otherwise come back to it later.
 
-### GitHUB Checklist
+#### GitHUB Checklist
+Complete these items before moving on to the next section.
 
 1) Create a GitHUB account
-2) Fork this repository
-3) Make a pull request to suggest an edit or update to this guide
+2) Create a new 'issue' to introduce yourself or ask a question
+3) Fork this repository
+4) Make a pull request to suggest an edit or update to this guide
 
 ## Install and Set up R and R Studio
 
