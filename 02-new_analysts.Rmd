@@ -18,8 +18,9 @@ You'll notice that this file is a '.Rmd' file which stands for R  Markdown. This
 
 ### GitHUB Checklist
 
-* Create a GitHUB account
-* Fork this repository
+1) Create a GitHUB account
+2) Fork this repository
+3) Make a pull request to suggest an edit or update to this guide
 
 ## Install and Set up R and R Studio
 
@@ -51,23 +52,23 @@ Watch [this youtube video](https://youtu.be/0eiOi5i34rs) to install your first p
 ## Learning Objectives:
 There are a plethora of resources to help you learn R. After a year and a half of sifting through this material and learning R myself I've found these resources to be the best, and I present them to you in an order I wish I had learned them in. Together these objectives direct you through an efficient way to learn R, and combined with a graduate level understanding of statistics you should gain an intermediate skill level in R using a very high-level, and modern approach.
 
-* Complete chapter 1 in swirl()
+1) Complete chapter 1 in swirl()
 
-* Next, watch [this R-Studio Tutorial](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/). Skip over the sections related to the Server Pro version of R-Studio.
+2) Next, watch [this R-Studio Tutorial](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-part-1/). Skip over the sections related to the Server Pro version of R-Studio.
 
-* Start making some awesome graphs by working through [section 3.1 to 3.5 in Hadley Wickham's R for Data Science Book](http://r4ds.had.co.nz/data-visualisation.html)
+3) Start making some awesome graphs by working through [section 3.1 to 3.5 in Hadley Wickham's R for Data Science Book](http://r4ds.had.co.nz/data-visualisation.html)
 
-* Complete chapters 2 – 7 in swirl() inside of RStudio.
+4) Complete chapters 2 – 7 in swirl() inside of RStudio. If you have questions about the topics covered in these swirl chapters, consult Roger Peng's Book [R Programming](https://bookdown.org/rdpeng/rprogdatascience/)
 
-* Watch R-Studio tutorial: [Projects and R Studio](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-change-part-1/)
+5) Watch R-Studio tutorial: [Projects and R Studio](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-change-part-1/)
 
-* Commplete the remaining chapters in the swirl() R Programming course, and try some of the other swirl courses that interest you.
+6) Commplete the remaining chapters in the swirl() R Programming course, and try some of the other swirl courses that interest you.
 
-* Read [Chapter 7 of Jenny Bryans Book](http://happygitwithr.com/new-github-first.html) to get your own project set up on GitHUB first and then in R-Studio so you can start experimenting with your own data set and your own analysis. 
+7) Read [Chapter 7 of Jenny Bryans Book](http://happygitwithr.com/new-github-first.html) to get your own project set up on GitHUB first and then in R-Studio so you can start experimenting with your own data set and your own analysis. 
 
-* Read from front to back Hadley Wickam and Garrett Grolemund's Book: [R For Data Science](http://r4ds.had.co.nz/) to master the 'tidyverse'; a deadly combination of packages and a well thought out and systematic approach to "import, tidy, transform, visualize, and model data." Using the tidyverse as a foundation for your coding replaces the 'million and 1 ways' of doing things in R into a concise, grammar of data analysis programming.
+8) Read from front to back Hadley Wickam and Garrett Grolemund's Book: [R For Data Science](http://r4ds.had.co.nz/) to master the 'tidyverse'; a deadly combination of packages and a well thought out and systematic approach to "import, tidy, transform, visualize, and model data." Using the tidyverse as a foundation for your coding replaces the 'million and 1 ways' of doing things in R into a concise, grammar of data analysis programming.
 
-All these learning objectives will take some time to complete, and you will be very frustrated at points but know that we all have suffered through this initial learning curve and eventually it gets easier.
+All these learning objectives will take some time to complete, and you will be very frustrated at points but know that we all have suffered through this initial learning curve and eventually it gets easier. If you manage to complete all of these requirements you are well on your way to becoming an intermediate R programmer
 
 ## The Process of Data Analysis
 Roger Peng puts it simplest:
