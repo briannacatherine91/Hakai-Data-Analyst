@@ -19,7 +19,7 @@ The objective of this guide is to serve as a:
 2) best-practice guidelines for Hakai staff to make reproducible analyses, and use literate programming methods in R-Studio; and 
 3) a guide to enhance collaborative capacities for ecological analyses within and between Hakai research programs and generally the science community using Git and GitHub. 
 
-The beginning of this guide may seem difficult, but in making this guide I've kept long-term goals in mind and in a sense I have front-loaded the R learning experience with important concepts that will serve you in the near future and the long-run.
+The beginning of this guide may seem difficult, but in making this guide I've kept long-term goals in mind and in a sense I have front-loaded the R learning experience with important concepts that will serve you in the near future and the long-run. If you have a question about this material at any time, go to the issues tab and create a new issue so start a new thread. 
 
 ## Acknowledgements
 Much of this document simply refers you to material that others have worked very hard to make. I simply point to these resources in an order that makes sense and seems systematic to me. Many thanks to the following people for making this possible:
