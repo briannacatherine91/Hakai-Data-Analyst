@@ -45,7 +45,7 @@ Congratulations you now have setup the three main tools in the R Analyst toolbox
 ## Familiarize yourself with R and R-Studio
 Now that you have the tools you need, lets get familiar with R-Studio and the R programming language.
 
-Lets install you're first package in R-Studio. You can think of packages as extensions to R. Because R is open-source, people often write packages to make different functions, features, or analyses possible. 
+Lets install your first package in R-Studio. You can think of packages as extensions to R. Because R is open-source, people often write packages to make different functions, features, or analyses possible. 
 
 Your first package will be swirl(). swirl() is a package for learning (and teaching) statistics and R simultaneously and interactively.
 
