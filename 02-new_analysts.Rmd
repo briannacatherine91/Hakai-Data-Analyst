@@ -2,7 +2,7 @@
 
 ## Set-up GitHUB
 
-The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses.  If you're interested in learning why you should use git, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move on to learning R.
+The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses. GitHUB is integral for tracking the evolution of a set of files. Basically GitHUB and R is analagous to 'track changes' and Microsoft Word. If you're interested in learning more, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move on to learning R.
 
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
 
