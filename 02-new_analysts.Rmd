@@ -2,7 +2,7 @@
 
 ## Set-up GitHUB
 
-The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses. GitHUB is integral for tracking the evolution of a set of files. Basically GitHUB and R is analagous to 'track changes' and Microsoft Word. If you're interested in learning more, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise take my word for it and we can get this part out of the way before we move on to learning R.
+The reason this document is hosted on GitHUB is that we'll be working with GitHUB throughout this guide and throughout your own analyses. GitHUB is integral for tracking the evolution of a set of files. Basically, GitHUB and R is analogous to 'track changes' and Microsoft Word. If you're interested in learning more, read [Chapter 1; 'Why Git? Why GitHUB' from Jenny Bryans Book](http://happygitwithr.com/big-picture.html#why-git). Otherwise, take my word for it and we can get this part out of the way before we move on to learning R.
 
 #### Setup a GitHUB Account
 First, you're going to want to [sign up for a GitHUB account](https://github.com)
@@ -13,7 +13,7 @@ Now that you have a GitHUB account, you should introduce yourself and let me kno
 #### Fork This Repo
 Next, you should fork this repo so that you can access this document from your GitHUB profile, edit it, and make a 'pull request' to suggest edits to me. This serves two purposes: 1) the quality of this guide will be improved if you take time to edit chapters and contribute your insights on what didn't work for you; and 2) forking repos and making pull-requests is training you for the workflow you will use when contributing to colleagues' analyses in the very near future. 
 
-To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automcatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when your happy you can click on 'pull request' to send the updates back to me so I can review them and decide if I should accept your edits and merge them.
+To successfully fork this repo and suggest edits simply go to [my repo here](https://github.com/Br-Johnson/Hakai-Data-Analyst) and click on the name of this chapter: 'new_analysts.Rmd', once it's open click on the pencil icon to suggest edits. Editing automatically forks the repo and makes a copy in your own list of repos. Now you can make all the edits you'd like and when you're happy you can click on 'pull request' to send the updates back to me so I can review them and decide if I should accept your edits and merge them.
 
 If you  aren't successfull forking my repo, read [Chapter 24 of Jenny Brians Book; 'Fork a Repo'](http://happygitwithr.com/fork.html).
 
@@ -30,7 +30,7 @@ Complete these items before moving on to the next section.
 
 ## Install and Set up R and R Studio
 
-R is the statistical programming language that R Studio understands. I think of R Studio as being the front-end user interface to the coding language R which is running in the background. For this all to work you you need to download two files to start; R and R Studio.
+R is the statistical programming language that R Studio understands. I think of R Studio as being the front-end user interface to the coding language R which is running in the background. For this all to work you need to download two files to start; R and R Studio.
 
 1) Watch my [Youtube Video](https://youtu.be/G3kaguwW8yc) on how to install R and R Studio
 2) Go to https://cran.r-project.org/ and follow the link to the download for your operating system.
@@ -39,7 +39,7 @@ R is the statistical programming language that R Studio understands. I think of 
 ## Install and set-up Git
 Next you're going to install Git. Git tracks the changes you make in R-Studio locally and upon your request, pushes changes to your remote repository at GitHUB. Similar to the relationship between R and R-Studio, Git is the *local* version control system running in the back ground on your computer while GitHUB is the *remote* user interface for saving, tracking, and sharing updated versions of your analyses that is hosted on a remote server. 
 
-Installing Git locally and getting Git to communicate to your remote GitHUB website account, and then getting them to talk with RStudio takes a number of steps to complete...This next part can be painful to work through, but it is 100 % neccesary and well worth it in the long-run.
+Installing Git locally and getting Git to communicate to your remote GitHUB website account, and then getting them to talk with RStudio takes a number of steps to complete...This next part can be painful to work through, but it is 100 % necessary and well worth it in the long-run.
 
 1) Install Git and GitHUB and get them talking to R-Studio using [Jenny Bryan's Guide](http://happygitwithr.com/install-git.html), start at chapter 7 and work to the end of chapter 13.
 2) If you're successful: Thank god that's over. Otherwise continue on to Chapter 14 and 15 if you're having problems.
